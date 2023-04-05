@@ -1,0 +1,26 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+
+
+body{
+
+    display: flex;
+    background-color:white;
+    flex-direction: column;
+
+}
+body>*{
+    margin:5px;
+    background-color:#E8E8E8;
+    border: 1px solid gray;
+    /*border-color: gray;
+    border-width:1px;
+    border-style: solid ;*/
+    padding:5px;
+}
+main{
+    flex:1;
+
+}
