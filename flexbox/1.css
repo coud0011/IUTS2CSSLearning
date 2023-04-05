@@ -5,13 +5,13 @@ html,body{
 
 
 body{
-
     display: flex;
     background-color:white;
     flex-direction: column;
 
 }
 body>*{
+    overflow: hidden;
     margin:5px;
     background-color:#E8E8E8;
     border: 1px solid gray;
