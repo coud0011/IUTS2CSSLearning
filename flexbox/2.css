@@ -23,7 +23,6 @@ body *{
     padding:5px;
 }
 nav *{
-    overflow: hidden;
     background-color:#E8E8E8;
     border: 1px solid gray;
 }
