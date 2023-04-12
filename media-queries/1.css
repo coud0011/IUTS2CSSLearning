@@ -38,5 +38,6 @@ nav>*,main>*{
     }
     .main__complement{
         flex-grow:0
+
     }
 }
