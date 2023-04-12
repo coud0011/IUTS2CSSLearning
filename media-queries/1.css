@@ -1,0 +1,42 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin:0;
+    display: flex;
+}
+body *:not(.menu){
+    display: flex;
+    margin:5px;
+    padding:5px;
+    flex:1;
+}
+.menu{
+    display: flex;
+    margin:5px;
+    padding:5px;
+}
+body>*{
+    display: flex;
+    background-color:white;
+    border: 1px dashed red;
+}
+nav>*,main>*{
+    background-color:#E8E8E8;
+    border: 1px solid gray;
+}
+@media (max-width:799px){
+    body,main{
+        flex-direction: column;
+    }
+}
+@media (min-width: 800px) and (max-width:999px){
+    body{
+        flex-direction: column;
+    }
+    .main__content{
+        flex:1 0.9 auto;
+    }
+    .main__complement{
+        flex-grow:0
+    }
+}
