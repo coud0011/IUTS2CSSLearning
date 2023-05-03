@@ -1,0 +1,40 @@
+html,body{
+    height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding:2px;
+    display: flex;
+    max-width: 1000px;
+}
+.menu__item,.main>*,.text{
+    display: flex;
+    margin:2px;
+    padding:5px;
+    justify-items: stretch;
+}
+.main{
+    flex: 1;
+}
+.main__content{
+    flex:1 1 auto;
+}
+body,body>*{
+    display: flex;
+    background-color:white;
+    flex-direction: column;
+}
+nav>*,main>*,header>*,footer>*{
+    background-color:#E8E8E8;
+    border: 1px solid gray;
+}
+@media (min-width:400px){
+    .menu{
+        flex-direction: row;
+    }
+}
+@media (min-width:700px){
+
+}
+@media (min-width:1000px){
+
+}
