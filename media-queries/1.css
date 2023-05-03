@@ -1,8 +1,9 @@
 html,body{
     height:100%;
     width: 100%;
-    margin:0;
+    margin:auto;
     display: flex;
+    max-width: 1000px;
 }
 body *:not(.menu){
     display: flex;
@@ -24,20 +25,30 @@ nav>*,main>*{
     background-color:#E8E8E8;
     border: 1px solid gray;
 }
-@media (max-width:799px){
+@media (max-width:699px){
     body,main{
         flex-direction: column;
     }
 }
-@media (min-width: 800px) and (max-width:999px){
+@media (min-width:700px) and (max-width:849px){
     body{
         flex-direction: column;
     }
     .main__content{
         flex:1 0.9 auto;
     }
-    .main__complement{
-        flex-grow:0
-
+    aside.main__complement{
+        flex: 0 0 0;
+    }
+}
+@media (min-width:850px){
+    .menu{
+        flex-direction: column;
+    }
+    .main__content{
+        flex:1 0.9 auto;
+    }
+    aside.main__complement{
+        flex: 0 0 0;
     }
 }
