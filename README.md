@@ -17,3 +17,12 @@ Une fois le serveur local lançé, [ouvrir la page d'accueil dans le navigateur]
 ## Des interfaces web adaptatives
 
 [Second TP](https://iut-info.univ-reims.fr/users/jonquet/intranet/but/r202/tp/media-queries/index.html "sujet du TP"), traitant des interfaces web adaptatives.
+
+## Détails des interfaces Web
+
+[Second TP](https://iut-info.univ-reims.fr/users/jonquet/restricted/but/r202/tp/complements/ "sujet du TP"), traitant des détails des interfaces Web.
+
+
+## Raccourcis utilisés
+Raccourcis pour la vue adaptative
+```Ctrl + Maj + M```
